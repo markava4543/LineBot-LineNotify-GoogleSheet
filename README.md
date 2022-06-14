@@ -1,6 +1,6 @@
 # LineBot-LineNotify-GoogleSheet
 
-function doPost(e) {
+ function doPost(e) {
   var ssId = "<Your Sheet ID>";
   var ss = SpreadsheetApp.openById("Your Sheet ID");
   SpreadsheetApp.setActiveSpreadsheet(ss);
